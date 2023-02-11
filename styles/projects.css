@@ -1,0 +1,14 @@
+section {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+#tech li, #links li {
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, .5);
+}

@@ -1,0 +1,66 @@
+section {
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 { 
+    color: wheat;
+    font-size: 2em;
+}
+p { font-size: larger; }
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#intro h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#intro h2 {
+    color: white;
+    font-size: 4rem;
+
+}
+
+#intro p {
+    font-size: larger;
+
+}
+
+#tool-list {
+    font-size: 1.3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+
+#tool-list li {
+    padding: .7rem;
+    margin: .5rem 1rem ;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+@media screen and (max-width: 700px) {
+    #intro h1 {
+        font-size: 1.5em;
+        color: white;
+    }
+
+    #intro h2 {
+        font-size: 2.3em;
+
+    }
+}
