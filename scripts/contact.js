@@ -7,7 +7,7 @@ form.addEventListener("submit", async (e) => {
     const mail = new FormData(form)
 
     // Send mail
-    const res =  await fetch("/contact", {
+    const res = await fetch("https://portfolio-qbuq.onrender.com/contact", {
         method: "post",
         body: mail,
 
