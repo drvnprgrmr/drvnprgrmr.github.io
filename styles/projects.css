@@ -6,7 +6,7 @@ section {
 }
 
 
-#tech li, #links li {
+.tech li, .links li {
     padding: .5rem;
     margin: .5rem;
     border-radius: .5rem;
